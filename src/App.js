@@ -1,13 +1,14 @@
 import "./App.css";
 import Header from "./Header/Header";
+import Navbar from "./Navbar/Navbar";
+import Results from "./Results/Results";
 
 function App() {
   return (
     <div className="app">
-      {/* H E A D E R */}
       <Header />
-      {/* N A V B A R */}
-      {/* R E S U L T S */}
+      <Navbar />
+      <Results />
     </div>
   );
 }
